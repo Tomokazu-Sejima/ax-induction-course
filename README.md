@@ -1,9 +1,16 @@
 # ax-induction-course
 
-### [環境構築](./env.md)
+### 目次
 
-### [Python](./python-training.md)
+1.  [環境構築](./env.md)
 
-### [React](./react-training.md)
+2.  [Python](./python-training.md)
 
-### [Django と React を用いた Web アプリケーション開発](./web-app-traing.md)
+3.  [React](./react-training.md)
+
+4.  [Django と React を用いた Web アプリケーション開発](./web-app-traing.md)
+
+### 資料
+
+- [【初心者向け】 基本の Linux コマンド一覧！操作別に紹介 ](https://udemy.benesse.co.jp/development/system/linux-command.html)
+- 随時追加します。
