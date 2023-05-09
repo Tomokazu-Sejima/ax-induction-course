@@ -16,6 +16,13 @@
 
 #### Tips
 
+- fish
+
+  - デフォルトの shell を fish に変更
+    ```
+    chsh -s $(which fish)
+    ```
+
 - Python のインストール (asdf)
 
   - Python のインストールに失敗する場合は必要なパッケージを Ubuntu にインストールする
@@ -28,6 +35,10 @@
     ```
 
 - PDM のインストール
+
   - [pipx](https://pypa.github.io/pipx/)を使用したインストール推奨
   - PDM コマンドがエラーになる場合は、`.config/fish/config.fish`に  
     `export PATH="$PATH:/home/<ユーザ名>/.local/bin"`を追加
+
+- コマンドの実行時にエラーが発生する場合、`source ~/.config/fish/config.fish`を実行してみてください。  
+  fish shell の設定ファイルを再読み込みします。
