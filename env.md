@@ -18,7 +18,7 @@
 
 - Python のインストール (asdf)
 
-  - 必要なパッケージを Ubuntu にインストールする
+  - Python のインストールに失敗する場合は必要なパッケージを Ubuntu にインストールする
 
     ```
     sudo apt-get update && sudo apt-get install make build-essential libssl-dev \
