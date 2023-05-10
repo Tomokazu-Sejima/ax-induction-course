@@ -18,7 +18,10 @@
 
 - fish
 
-  - デフォルトの shell を fish に変更
+  - Go fish > Linux > Subscribe > `To install fish, run the following commands:`  
+    のコマンドを実行
+
+  - デフォルトの shell を fish に変更 \*実行後は要再起動
     ```
     chsh -s $(which fish)
     ```
@@ -40,5 +43,7 @@
   - PDM コマンドがエラーになる場合は、`.config/fish/config.fish`に  
     `export PATH="$PATH:/home/<ユーザ名>/.local/bin"`を追加
 
-- コマンドの実行時にエラーが発生する場合、`source ~/.config/fish/config.fish`を実行してみてください。  
-  fish shell の設定ファイルを再読み込みします。
+- コマンドの実行時にエラーが発生する場合、
+  - `source ~/.config/fish/config.fish` を実行  
+    fish shell の設定ファイルを再読み込みします。
+  - `.config/fish/config.fish` に `export PATH="$PATH:/home/<ユーザ名>/.local/bin"`を追加
