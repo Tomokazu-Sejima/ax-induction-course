@@ -2,6 +2,18 @@
 """
 
 
+def repeat_output(name: str, count: int):
+    """指定された回数分 "XXさん、こんにちは" と出力します。
+
+    Args:
+        name (str): Your Name
+        count (int): 繰り返し回数
+    """
+
+    for n in range(count):
+        print(f"{name}さん、こんにちは。")
+
+
 # 関数の定義
 # def 関数名(引数):
 # 引数に型はあってもなくてもいい
@@ -40,6 +52,7 @@ def factorial(number):
 
 
 if __name__ == "__main__":
+    repeat_output("太郎", 10)
     ans1 = get_sum([1, 2, 3])
     print(ans1)
     ans2 = factorial(5)
