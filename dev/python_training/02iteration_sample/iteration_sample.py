@@ -13,6 +13,11 @@ def repeat_output(name: str, count: int):
     for n in range(count):
         print(f"{name}さん、こんにちは。")
 
+    ## C#の例
+    # for (int n = 0; n < count; n ++){
+    #   Console.WriteLine("{0}さん、こんにちは。", name)
+    # }
+
 
 # 関数の定義
 # def 関数名(引数):
