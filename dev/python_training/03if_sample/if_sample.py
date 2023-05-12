@@ -4,7 +4,17 @@
 import sys
 
 
-def max_int(a, b, c):
+def max_int(a: int, b: int, c: int):
+    """3つの整数のうち、最大のものを返します。
+
+    Args:
+        a (int): 任意の整数 a
+        b (int): 任意の整数 b
+        c (int): 任意の整数 c
+
+    Returns:
+        _type_: _description_
+    """
     if a >= b and a >= c:
         return a
     elif b >= a and b >= c:

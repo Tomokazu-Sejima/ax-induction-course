@@ -1,10 +1,13 @@
 # 環境構築
 
+Linux のプログラムを Windows 上で実行するためのツール [WSL](https://learn.microsoft.com/ja-jp/windows/wsl/about) を使用します。
+
 ### Windows
 
 - [WSL + ubuntu](https://learn.microsoft.com/ja-jp/windows/wsl/install)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code)
+- [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=ja-jp&gl=jp)
 
 ### WSL
 
@@ -21,7 +24,8 @@
   - Go fish > Linux > Subscribe > `To install fish, run the following commands:`  
     のコマンドを実行
 
-  - デフォルトの shell を fish に変更 \*実行後は要再起動
+  - デフォルトの shell を fish に変更  
+    実行後は要再起動
     ```
     chsh -s $(which fish)
     ```
