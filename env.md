@@ -8,7 +8,7 @@
 
 ### WSL
 
-- [fish](https://fishshell.com/)
+- [fish (command line shell)](https://fishshell.com/)
 - [asdf (Programming Language Manager)](https://asdf-vm.com/)
   - [python](https://github.com/asdf-community/asdf-python)
   - [nodejs](https://github.com/asdf-vm/asdf-nodejs)
