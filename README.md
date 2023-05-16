@@ -13,4 +13,5 @@
 ### 資料
 
 - [【初心者向け】 基本の Linux コマンド一覧！操作別に紹介 ](https://udemy.benesse.co.jp/development/system/linux-command.html)
+- [Git](./git.md)
 - 随時追加します。
