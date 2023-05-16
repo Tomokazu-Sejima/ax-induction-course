@@ -26,3 +26,14 @@
 - `git merge <branch name>` : 現在使用しているブランチに特定のブランチを取り込む
   - (例) `git merge remotes/origin/dev` : リモートの dev ブランチをマージ
 - [よく使う Git コマンド 19 選！使い方を初心者向けにわかりやすく解説](https://www.sejuku.net/blog/5816)
+
+### 認証簡素化
+
+```bash
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe"
+```
+
+- 上記で失敗する場合 `Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"`が存在する場合は、下記を試してください。
+  ```
+  git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
+  ```
