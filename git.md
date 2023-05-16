@@ -27,7 +27,7 @@
   - (例) `git merge remotes/origin/dev` : リモートの dev ブランチをマージ
 - [よく使う Git コマンド 19 選！使い方を初心者向けにわかりやすく解説](https://www.sejuku.net/blog/5816)
 
-### 認証簡素化
+### WSL での Git 認証の設定
 
 ```bash
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe"
