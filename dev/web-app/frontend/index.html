@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App | ユーザー検索</title>
+    <meta charset="UTF-8" />
+    <script src="./scripts/search.js"></script>
+  </head>
+  <body>
+    <h1>ユーザー検索</h1>
+    <div>
+      <label for="userId">社員番号</label>
+      <input type="text" name="userId" id="userId" />
+    </div>
+    <div>
+      <label for="userName">氏名</label>
+      <input type="text" name="userName" id="userName" />
+    </div>
+    <div>
+      <label for="department">部署</label>
+      <input type="text" name="department" id="department" />
+    </div>
+    <button id="search-btn">検索</button>
+    <br />
+    <br />
+    <table id="results" border="1">
+      <thead>
+        <tr>
+          <th>社員番号</th>
+          <th>氏名</th>
+          <th>部署</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Search results will be appended here -->
+      </tbody>
+    </table>
+    <br />
+    <button onclick="location.href='./new.html'">ユーザーを登録する</button>
+  </body>
+</html>

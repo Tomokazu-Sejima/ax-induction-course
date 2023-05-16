@@ -15,8 +15,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "antd": "^5.4.7",
     "gatsby": "^5.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }

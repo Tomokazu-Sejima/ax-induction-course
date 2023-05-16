@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App | ユーザー登録</title>
+    <meta charset="UTF-8" />
+    <script src="./scripts/register.js"></script>
+  </head>
+  <body>
+    <h1>ユーザー登録</h1>
+    <form id="register-form">
+      <div>
+        <label for="userId">社員番号</label>
+        <input type="number" name="userId" id="userId" />
+      </div>
+      <div>
+        <label for="userName">氏名</label>
+        <input type="text" name="userName" id="userName" />
+      </div>
+      <div>
+        <label for="department">部署</label>
+        <input type="text" name="department" id="department" />
+      </div>
+      <div><input type="submit" value="登録" /></div>
+    </form>
+    <br />
+    <button type="button" onclick="history.back()">戻る</button>
+  </body>
+</html>
